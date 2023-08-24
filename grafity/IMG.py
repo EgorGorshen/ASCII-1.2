@@ -26,8 +26,8 @@ class IMG:
 
         # В случае плохого вывода изображения поиграйтесь с quality_x и quality_y
         # !! quality_x / quality_y = 0.5 !!
-        self.quality_x: int = 1
-        self.quality_y: int = 2
+        self.quality_x: int = 9
+        self.quality_y: int = 16
 
         if self.size[1] > self.t_size[1]:
             self.quality_y = self.size[1] // self.t_size[1]

@@ -17,10 +17,11 @@ max_iter = 50
 
 class Fractal:
     def __init__(self, equation=None, c_funk=None):
+        # TODO: заменить все цыфры константами
         pg.init()
         self.screen = pg.display.set_mode((1200, 800))
         pg.display.set_caption("Fractal")
-        self.zoom = 1.2
+        self.zoom = zoom
         self.FPS: int = 30
         self.the_number_of_frames: int = 100 * self.FPS
 

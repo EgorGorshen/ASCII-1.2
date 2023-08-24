@@ -29,7 +29,7 @@ def error_printer(ex: Exception):
 
 
 # Яркость 1
-GRADIENT: str = " @"
+GRADIENT: str = " ./@"
 
 # Яркость для дифур
 GR = 10
