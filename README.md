@@ -9,3 +9,8 @@
 FPS - не больше 30: 30
 ```
 
+```python
+import os
+
+print(help(os))
+```

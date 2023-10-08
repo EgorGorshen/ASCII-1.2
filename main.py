@@ -1,8 +1,10 @@
-from grafity import CampCamera, Fractal
+from grafity import CampCamera
+import sys
 
 
 def main():
-    Fractal.Fractal().run()
+    print(CampCamera())
 
-if __name__ == '__main__':
-    main()
+
+if __name__ == "__main__":
+    sys.exit(main())
